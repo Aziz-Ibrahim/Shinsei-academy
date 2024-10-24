@@ -2,14 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=LXGW+WenKai+Mono+TC&family=Outfit:wght@100..900&display=swap');
 
 /* Global style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #d1e7e0;
+    line-height: 1.6;
 }
 /* Nav */
+
 #sidebar h3 {
     color: #d1e7e0;
     align-self: center;
+    padding-right: .5rem;
 }
+
 .sidebar {
     position: fixed;
     left: 0;
@@ -68,5 +84,11 @@ ul {
 
 .main {
     margin-top: 20px;
+    padding-top: 1rem;
     
+}
+
+/* Hero section */
+#hero {
+
 }
