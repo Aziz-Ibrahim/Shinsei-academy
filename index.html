@@ -50,7 +50,6 @@
     <header id="hero" class="container">
         <!-- section with hero image -->
         <section class="row">
-
         </section>
     </header>
 
@@ -93,7 +92,7 @@
                 <!-- mb-4 used to add margin under image -->
                 <div class="col-12 col-md-6 mb-4">
                     <!-- img-fluid class makes the image responsive to its container -->
-                    <img src="assets\images\sushi-plate.jpg" class="img-fluid" alt="Sushi Plate">
+                    <img src="assets\images\about-sushi-plate.jpg" class="img-fluid" alt="Sushi Plate">
                 </div>
                 <!-- mb-4 used to add margin under text -->
                 <div class="col-12 col-md-6 mb-4">
@@ -109,17 +108,96 @@
         </section>
 
         <!-- Heritage Section -->
-         <section id="heritage" class="container">
+        <section id="heritage" class="container">
             <div class="row">
+                <div class="col-12 text-center my-4">
+                    <h2 class="display-5">Hayenami's Heritage</h2>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <p>
+                        What truly sets Master Hayenami apart is his philosophy of "kodawari" (こだわり) — an unwavering
+                        attention to detail and commitment to quality. This dedication is seen in every piece of sushi
+                        he crafts, where even the smallest elements are carefully considered to enhance the overall
+                        experience.
+                    </p>
+                    <p>
+                        Tsumori Hayenami’s culinary philosophy is deeply influenced by his upbringing in the mountainous
+                        countryside, where his family lived close to the land. Growing up, he learned from his parents
+                        and elders the importance of seasonality, foraging, and respecting nature's rhythms. His
+                        family’s rural way of life, where they grew their own vegetables and harvested fresh spring
+                        water, fostered a deep appreciation for simplicity and the purity of ingredients. This
+                        connection to the mountains taught him to approach sushi with the same respect for
+                        nature—honoring each ingredient’s natural state and bringing out its essence. His sushi is a
+                        reflection of his mountain heritage, combining the purity of rural life with the freshness of
+                        the sea, resulting in a style that is both grounded in tradition and uniquely his own.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <!-- img-fluid class makes the image responsive to its container -->
+                    <img src="assets\images\heritage-sushi-spread.jpg" class="img-fluid" alt="Display of artisan sushi">
+                </div>
 
+                <div class="col-12 col-md-6 mb-4">
+                    <img src="assets\images\heritage-gourmet-sushi.jpg" class="img-fluid"
+                        alt="A picture of gourmet sushi">
+                </div>
+
+                <div class="col-12 col-md-6 mb-4">
+                    <p>
+                        Though he’s become a master of his craft, Tsumori remains humble, often reflecting on his roots
+                        in the countryside, where nature taught him the value of patience, respect, and simplicity.
+                        Today, his creations are as much an expression of his life’s journey as they are of his deep
+                        connection to tradition.
+                    </p>
+
+                    <p>
+                        Tsumori Hayenami’s work is not just about creating sushi — it’s about sharing a piece of his
+                        soul with every bite, inviting those who taste his food to savor not just the dish but the story
+                        behind it. His legacy is one of craftsmanship, passion, and a lifelong pursuit of culinary
+                        excellence.
+                    </p>
+                </div>
             </div>
 
-         </section>
-    </main>    
-        <!-- Bootstrap JS Script-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+        </section>
+    </main>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="book" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="subscribeModalLabel">Hayenami's Recipe Book</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Sign up for a chance to het your hands on a limited edition recipe book written by sushi master chef Tsumori Hayenami
+                    </p>
+                    <form class="row g-3 sharp-corners">
+                        <div class="col-lg-6">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="col-12 mb-4">
+                            <a href="download.html"><button type="submit" class="btn btn-primary custom-btn">
+                                Sign up!
+                            </button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    <!-- Bootstrap JS Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
