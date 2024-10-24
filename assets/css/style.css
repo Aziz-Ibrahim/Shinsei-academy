@@ -104,3 +104,11 @@ h2 {
     }
 
 }
+
+/* Media query to make hero image show chef's face om mobile screend */
+@media screen and (max-width: 320px) {
+    #hero {
+        background-position: 65%;
+        background-repeat: no-repeat;
+    }
+}
