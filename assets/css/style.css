@@ -41,11 +41,12 @@ h2 {
 /* Modal */
 .custom-btn {
     background-color: #800020;
+    color: #ffe4e2;
     border: #ffe4e2;
 }
 
 .custom-btn:hover {
-    background-color: #564146;
+    background-color: #d09ea9;
     border: #800020;
 }
 
@@ -61,26 +62,19 @@ h2 {
     background-color: #ffe4e2;
 }
 
-/* Portfolio */
+/* classes */
 
-#portfolio {
-    background-color: #dbdcde;
-
-}
-
-#portfolio .card-title {
-    color: #1f7798;
+#classes .card-title {
+    color: #800020;
     font-size: 1.2rem;
 }
 
-#portfolio .btn-outline-secondary:hover {
-    background-color: #1f7798;
-}
 
-#portfolio .card-text {
+#classes .card-text {
     min-height: 120px;
 
 }
+
 
 /* Contact */
 
