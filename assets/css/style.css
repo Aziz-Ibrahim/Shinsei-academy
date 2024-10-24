@@ -1,0 +1,71 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=LXGW+WenKai+Mono+TC&family=Outfit:wght@100..900&display=swap');
+
+/* Global style */
+body{
+    background-color: #d1e7e0;
+}
+/* Nav */
+#sidebar h3 {
+    color: #d1e7e0;
+    align-self: center;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    padding-left: 1%;
+    background-color: #800020;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style-type: none;
+    scroll-behavior: smooth;
+
+    li {
+        padding: 6px 0;
+
+        a {
+            position: relative;
+            display: block;
+            padding: 4px 0;
+            font-family: Lato, sans-serif;
+            color: #ecf0f1;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: 0.5s;
+
+            &::after {
+                position: absolute;
+                content: "";
+                top: 100%;
+                left: 0;
+                width: 100%;
+                height: 3px;
+                background: #d1e7e0;
+                transform: scaleX(0);
+                transform-origin: right;
+                transition: transform 0.5s;
+            }
+
+            &:hover {
+                color: #d09ea9;
+            }
+
+            &:hover::after {
+                transform: scaleX(1);
+                transform-origin: left;
+            }
+        }
+    }
+}
+
+.main {
+    margin-top: 20px;
+    
+}
