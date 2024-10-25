@@ -27,22 +27,47 @@
             <div class="collapse navbar-collapse nav" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="index.html#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#heritage">Heritage</a>
+                        <a class="nav-link" href="index.html#heritage">Heritage</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#classes">Online Classes</a>
+                        <a class="nav-link" href="index.html#classes">Online Classes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="index.html#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <section id="form" class="container">
+        <form class="row" id="enroll-form" method="get" action="">
+            <h2>Thank you for you interest in our classes</h2> <br>
+            <p> Please fill in the form below and submit your details</p>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingname" placeholder="Name">
+                <label for="floatingname">Full Name</label>
+              </div>
+              <div class="form-floating">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <option selected>Classes</option>
+                  <option value="mastery-sushi-class">Mastery In Sushi</option>
+                  <option value="sushi-intro-class">Introduction To Sushi</option>
+                </select>
+                <label for="floatingSelect">Choose class</label>
+              </div>
+            <button type="submit" class="btn btn-primary custom-btn">Enroll</button>
+        </form>
+        <a href="index.html"><button type="submit" class="btn btn-primary custom-btn">Return to Home page</button></a>
+        <!-- <img src="assets\images\form-image.jpg" alt="Sushi on a plate with chopsticks and side sauce"> -->
+    </section>
 </body>

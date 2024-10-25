@@ -55,16 +55,25 @@ h2 {
     border: #800020 !important;
 }
 
-/* About */
-
 #home,
 #about,
 #heritage,
 #classes,
 #contact,
-#purchase,
+#form,
 #subscribe {
     background-color: #ffe4e2;
+}
+
+/* Header */
+
+#hero {
+    background-color: #ffe4e2;
+    background-image: url("../images/hero-image.webp");
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 700px;
+    padding: 5% 7%;
 }
 
 /* classes */
@@ -80,24 +89,53 @@ h2 {
 
 }
 
-
-/* Contact */
-
-#contact {
-    background-color: white;
-}
-
-/* Header */
-
-#hero {
-    background-color: #dbdcde;
-    background-image: url("../images/hero-image.webp");
+/* Form */
+#form {
+    background:url('assets\images\form-image.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: 50% 70%;
-    min-height: 700px;
-    padding: 5% 7%;
 }
 
+#form-container {
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+
+#enroll-form {
+    color: #ffe4e2;
+    background-color: rgba(128, 0, 32, 0.6);
+    padding: 30px;
+}
+
+
+#enroll-form>h2 {
+    color: #ffe4e2;
+    margin-bottom: 20px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #ffe4e2;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ffe4e2;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
 /* Media Queries */
 
