@@ -50,6 +50,11 @@ h2 {
     border: #800020;
 }
 
+.custom-btn:focus {
+    background-color: #d09ea9 !important;
+    border: #800020 !important;
+}
+
 /* About */
 
 #home,
