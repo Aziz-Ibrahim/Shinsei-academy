@@ -43,6 +43,7 @@ h2 {
     background-color: #800020;
     color: #ffe4e2;
     border: #ffe4e2;
+    border-radius: 0;
 }
 
 .custom-btn:hover {
@@ -90,30 +91,23 @@ h2 {
 }
 
 /* Form */
-#form {
-    background:url('assets\images\form-image.jpg') no-repeat center center fixed;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#form-container {
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
+.form-background {
+    background-image: url('../images/form-image.jpg'); 
+    background-size: cover;         
+    background-repeat: no-repeat;     
+    background-position: center;      /* Centers image within container */
+    padding: 2rem;                    /* Optional padding for spacing */
 }
 
 
-#enroll-form {
+#signup-form {
     color: #ffe4e2;
-    background-color: rgba(128, 0, 32, 0.6);
+    background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
 
-#enroll-form>h2 {
+#signup-form>h2 {
     color: #ffe4e2;
     margin-bottom: 20px;
 }
@@ -137,9 +131,32 @@ h2 {
     justify-content: space-around;
 }
 
+.custom-select {
+    background: transparent;
+    color: #ffe4e2;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ffe4e2;
+    border-radius: 2px;
+    padding: 0 5px;
+    border-radius: 0;
+}
+
+.custom-select option {
+    background-color: rgba(5, 5, 5, 0.5) !important;
+    color: #ffe4e2;
+    border-radius: 0;
+}
+
+.custom-select option:checked {
+    background-color: rgba(5, 5, 5, 0.5) !important;
+    color: #800020 !important;
+}
+
 /* Media Queries */
 
-/* about p in medium screens */
+/* #about>p in medium screens */
 @media screen and (max-width: 768px) {
     #about>p {
         margin-top: 0;
@@ -153,5 +170,13 @@ h2 {
     #hero {
         background-position: 65%;
         background-repeat: no-repeat;
+    }
+}
+
+/* booking.html form radio on medium and small screens */
+@media (max-width: 992px) { /* Applies to screens <= 992px (Bootstrap's "md" breakpoint) */
+    .radio-buttons {
+        flex-direction: column; /* Stack radio buttons vertically */
+        gap: 0.5rem;
     }
 }
