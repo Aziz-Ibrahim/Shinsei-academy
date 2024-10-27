@@ -62,15 +62,29 @@ h2 {
 #classes,
 #contact,
 #form,
-#subscribe {
+#subscribe,
+#chef-about {
     background-color: #ffe4e2;
 }
 
 /* Header */
+#logo-nav {
+    width: 5rem !important;
+    height: 100%;
+}
 
 #hero {
     background-color: #ffe4e2;
-    background-image: url("../images/hero-image.webp");
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 700px;
+    padding: 5% 7%;
+}
+
+#chef-hero {
+    background-color: #ffe4e2;
+    background-image: url("../images/chef-hero-image.webp");
     background-size: cover;
     background-position: 50% 70%;
     min-height: 700px;

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Shinsei Sushi Academy </title>
+    <title>Tsumori Hayenami (津守 颯波)</title>
     <!-- Bootstrap CSS Link -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,9 +19,8 @@
     <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="assets\images\logo.png" alt="Shinsei Sushi Academy Logo" width="50" height="50"
-                    class="d-inline-block align-text-top">
-                <span class="ms-2">Shinsei Sushi Academy</span>
+                <img src="assets\images\logo.png" alt="Shinsei Sushi Academy Logo" width="50" height="50" class="d-inline-block align-text-top">
+                <span class="ms-2">Tsumori Hayenami 津守 颯波</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -31,19 +30,19 @@
             <div class="collapse navbar-collapse nav" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="index.html#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="chef.html">Heritage</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#classes">Our Classes</a>
+                        <a class="nav-link" href="index.html#classes">Our Classes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="index.html#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +50,7 @@
     </nav>
 
     <!-- header -->
-    <header id="hero" class="container">
+    <header id="chef-hero" class="container">
         <!-- section with hero image -->
         <section class="row">
         </section>
@@ -63,26 +62,35 @@
             <div class="row">
                 <!-- text-center class used to centre all text inside column -->
                 <div class="col-12 text-center">
-                    <h1 class="display-4 my-4">Welcome to Shinsei Sushi Academy</h1>
+                    <h1 class="display-4 my-4">Master Tsumori Hayenami</h1>
                     <!-- mb-5 gives extra margin spacing under subheading -->
-                    <h2 class="display-6 mb-5">Where Tradition Meets a New Generation of Culinary Excellence</h2>
+                    <h2 class="display-6 mb-5">A Lifetime of Craftsmanship</h2>
                     <p>
-                        Nestled in the heart of London, Shinsei Sushi Academy is more than a school—it's a sanctuary for
-                        the art of sushi. Founded by the legendary master chef Tsumori Hayenami, the Academy upholds the
-                        discipline, precision, and grace of traditional Edomae sushi while embracing the innovation and
-                        diversity that define the spirit of modern London. "Shinsei," meaning "rebirth" or "new
-                        generation," perfectly embodies our mission: to preserve the ancient craft of sushi while
-                        inspiring a bold, new generation of chefs.
+                        Tsumori Hayenami (津守 颯波), now a revered 65-year-old sushi master, was born in a small, rural
+                        village nestled in the coastal mountains of Japan. His journey into the world of sushi began at
+                        the age of 16, when he left his hometown to apprentice under a skilled sushi chef in the
+                        bustling city of Osaka. Inspired by the freshness of the sea and the simplicity of life back
+                        home, Hayenami immersed himself in the art of sushi, dedicating himself to perfecting the
+                        delicate balance of flavor, texture, and presentation.
                     </p>
+                    <!-- mb-5 gives extra margin spacing under lead text -->
+                    <p class="lead mb-5">Get you copy of Master chef recipe book</p>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary sharp-corners custom-btn" data-bs-toggle="modal"
+                        data-bs-target="#book">
+                        Click here!
+                    </button>
+
                 </div>
             </div>
         </section>
         <!-- About section links to #about href in navbar -->
-        <section id="about" class="container">
+        <section id="chef-about" class="container">
             <div class="row">
                 <!-- my-4 used to add top and bottom margin to heading -->
                 <div class="col-12 text-center my-4">
-                    <h2 class="display-5">Our Philosophy</h2>
+                    <h2 class="display-5">About Hayenami</h2>
                 </div>
                 <!-- mb-4 used to add margin under image -->
                 <div class="col-12 col-md-6 mb-4">
@@ -92,11 +100,11 @@
                 <!-- mb-4 used to add margin under text -->
                 <div class="col-12 col-md-6 mb-4">
                     <p>
-                        Shinsei is not just about technique; it's about honoring the deep cultural heritage that sushi
-                        represents. At our Academy, students learn the philosophy of sushi-making—the patience,
-                        humility, and dedication that transform simple ingredients into extraordinary experiences. With
-                        a balance of traditional wisdom and contemporary flair, we are committed to nurturing chefs who
-                        will shape the future of sushi worldwide.
+                        With over 50 years of experience, Hayenami’s approach to sushi is deeply rooted in tradition yet
+                        nuanced with a personal touch. Every dish he creates reflects his respect for the natural
+                        ingredients he works with — from selecting the freshest fish to preparing rice with precise
+                        care. His technique, honed over decades, emphasizes the importance of balance, subtlety, and a
+                        harmony of flavors.
                     </p>
                 </div>
             </div>
@@ -104,22 +112,27 @@
 
         <!-- Heritage Section -->
         <section id="heritage" class="container">
-            <div class="row">
+            <div class="row justify-content-center mb-5">
                 <div class="col-12 text-center my-4">
-                    <h2 class="display-5">Our Vision</h2>
+                    <h2 class="display-5">Hayenami's Heritage</h2>
                 </div>
                 <div class="col-12 col-md-6 mb-4">
                     <p>
-                        Whether you're an aspiring sushi chef or a culinary enthusiast, we invite you to be part of this
-                        journey. Join us at Shinsei Sushi Academy, and discover the art of sushi in a way you've never
-                        experienced before.
+                        What truly sets Master Hayenami apart is his philosophy of "kodawari" (こだわり) — an unwavering
+                        attention to detail and commitment to quality. This dedication is seen in every piece of sushi
+                        he crafts, where even the smallest elements are carefully considered to enhance the overall
+                        experience.
                     </p>
                     <p>
-                        At Shinsei Sushi Academy, students are guided by Tsumori Hayenami himself, along with a team of
-                        elite instructors. Through immersive training, apprentices gain the knowledge, skills, and
-                        respect essential to creating true sushi art. Our curriculum is designed for those who seek
-                        mastery—from sourcing the freshest, most sustainable ingredients to perfecting each cut and
-                        movement. Here, every detail matters, and every plate tells a story.
+                        Tsumori Hayenami’s culinary philosophy is deeply influenced by his upbringing in the mountainous
+                        countryside, where his family lived close to the land. Growing up, he learned from his parents
+                        and elders the importance of seasonality, foraging, and respecting nature's rhythms. His
+                        family’s rural way of life, where they grew their own vegetables and harvested fresh spring
+                        water, fostered a deep appreciation for simplicity and the purity of ingredients. This
+                        connection to the mountains taught him to approach sushi with the same respect for
+                        nature—honoring each ingredient’s natural state and bringing out its essence. His sushi is a
+                        reflection of his mountain heritage, combining the purity of rural life with the freshness of
+                        the sea, resulting in a style that is both grounded in tradition and uniquely his own.
                     </p>
                 </div>
                 <div class="col-12 col-md-6 mb-4">
@@ -147,47 +160,11 @@
                         excellence.
                     </p>
                 </div>
-            </div>
 
-        </section>
-        <!-- Online classes section -->
-        <section id="classes" class="container">
-            <div class="row">
-                <div class="col-12 text-center my-4">
-                    <h2 class="display-5">Online Classes</h2>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="card mb-3 sharp-corners">
-                        <img src="assets\images\mastery-sushi-class.jpg" class="card-img-top"
-                            alt="Top view of Sushi on a tabel">
-                        <div class="card-body">
-                            <h3 class="card-title">Mastery in Sushi</h3>
-                            <p class="card-text">
-                                Learn how to become a Sushi chef, This class is designed to target chefs at CDP level
-                                and above, Commis chefs and entry level chefs are welcome to sign up too however we
-                                strongly recommend you
-                                click on the other class we provide
-                            </p>
-                            <a href="booking.html" class="btn btn-outline-secondary custom-btn">Enroll</a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="card mb-3 sharp-corners">
-                        <img src="assets\images\sushi-intro-class.jpg" class="card-img-top"
-                            alt="picture of Sushi chefs in class">
-                        <div class="card-body">
-                            <h3 class="card-title">Introduction to Sushi cheffing</h3>
-                            <p class="card-text">
-                                This class is designed for chefs at entry level who want to learn about sushi from
-                                scratch.</p>
-                            <a href="booking.html" class="btn btn-outline-secondary custom-btn">Enroll</a>
-                        </div>
-                    </div>
-                </div>
+                <!-- Return Home -->
+                <a href="index.html"><button type="submit" class="btn btn-primary custom-btn mb-3">
+                        Home Page
+                    </button></a>
             </div>
         </section>
 
