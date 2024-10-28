@@ -33,13 +33,13 @@
             <div class="collapse navbar-collapse nav" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html#home">Home</a>
+                        <a class="nav-link" href="index.html#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="chef.html">Heritage</a>
+                        <a class="nav-link active" aria-current="page" href="chef.html">Heritage</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#classes">Our Classes</a>
@@ -81,7 +81,7 @@
                     <p class="lead mb-5">Get you copy of Master chef recipe book</p>
 
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary sharp-corners custom-btn" data-bs-toggle="modal"
+                    <button type="button" class="btn btn-primary sharp-corners custom-btn" data-bs-toggle="modal" aria-label="click here to sign up for acopy of the recipe book"
                         data-bs-target="#book">
                         Click here!
                     </button>
@@ -89,7 +89,6 @@
                 </div>
             </div>
         </section>
-        <!-- About section links to #about href in navbar -->
         <section id="chef-about" class="container">
             <div class="row">
                 <!-- my-4 used to add top and bottom margin to heading -->
@@ -166,7 +165,7 @@
                 </div>
 
                 <!-- Return Home -->
-                <a href="index.html" class="btn btn-primary custom-btn mb-3">Home Page</a>
+                <a href="index.html" class="btn btn-primary custom-btn mb-3" aria-label="click here to return to home page">Home Page</a>
             </div>
         </section>
 
@@ -188,15 +187,15 @@
                     </p>
                     <form class="row g-3 sharp-corners">
                         <div class="col-lg-6">
-                            <label for="inputName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="inputName">
+                            <label for="modalName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="modalName">
                         </div>
                         <div class="col-lg-6">
-                            <label for="inputEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail">
+                            <label for="modalEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="modalEmail">
                         </div>
                         <div class="col-12 mb-4">
-                            <a href="download.html" class="btn btn-primary custom-btn">Sign Up!</a>
+                            <a href="download.html" class="btn btn-primary custom-btn" aria-label="click here to submit your request for a recipe book copy">Sign Up!</a>
                         </div>
                     </form>
                 </div>
