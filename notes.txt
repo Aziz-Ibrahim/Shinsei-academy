@@ -1,0 +1,2 @@
+Link to am I responsive
+https://ui.dev/amiresponsive?url=https://aziz-ibrahim.github.io/Shinsei-academy/
