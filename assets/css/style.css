@@ -1,6 +1,7 @@
 /*   color theme
 
 #800020 Burgundy
+#f3eed9
 #d09ea9 
 #d1e7e0
 #ffe4e2
@@ -45,8 +46,8 @@ h2 {
 /* Modal */
 .custom-btn {
     background-color: #800020;
-    color: #ffe4e2;
-    border: #ffe4e2;
+    color: #f3eed9;
+    border: #f3eed9;
     border-radius: 0;
 }
 
@@ -69,7 +70,7 @@ h2 {
 #subscribe,
 #chef-about,
 #download {
-    background-color: #ffe4e2;
+    background-color: #f3eed9;
 }
 
 /* Header */
@@ -79,7 +80,7 @@ h2 {
 }
 
 #hero {
-    background-color: #ffe4e2;
+    background-color: #f3eed9;
     background-image: url("../images/hero-image.jpg");
     background-size: cover;
     background-position: 50% 70%;
@@ -88,7 +89,7 @@ h2 {
 }
 
 #chef-hero {
-    background-color: #ffe4e2;
+    background-color: #f3eed9;
     background-image: url("../images/chef-hero-image.webp");
     background-size: cover;
     background-position: 50% 70%;
@@ -157,25 +158,25 @@ h2 {
 
 
 #signup-form {
-    color: #ffe4e2;
+    color: #f3eed9;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
 
 #signup-form>h2 {
-    color: #ffe4e2;
+    color: #f3eed9;
     margin-bottom: 20px;
 }
 
 
 .text-input {
     background: transparent;
-    color: #ffe4e2;
+    color: #f3eed9;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #ffe4e2;
+    border: 1px solid #f3eed9;
     border-radius: 2px;
     padding: 0 5px;
 }
@@ -189,11 +190,11 @@ h2 {
 
 .custom-select {
     background: transparent;
-    color: #ffe4e2;
+    color: #f3eed9;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #ffe4e2;
+    border: 1px solid #f3eed9;
     border-radius: 2px;
     padding: 0 5px;
     border-radius: 0;
@@ -201,7 +202,7 @@ h2 {
 
 .custom-select option {
     background-color: rgba(5, 5, 5, 0.5) !important;
-    color: #ffe4e2;
+    color: #f3eed9;
     border-radius: 0;
 }
 
