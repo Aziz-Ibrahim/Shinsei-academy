@@ -3,3 +3,6 @@ https://ui.dev/amiresponsive?url=https://aziz-ibrahim.github.io/Shinsei-academy/
 
 Link to contrast checker 
 https://webaim.org/resources/contrastchecker/
+
+Link to colorspace website suggesting color palette to go with #800020
+https://mycolor.space/?hex=%23800020&sub=1
