@@ -18,9 +18,13 @@
 body {
     font-family: "Sora", sans-serif;
     background-color: #800020;
+    margin-top: 60px;
 
 }
 
+nav {
+    padding: 0 !important;
+}
 
 nav .container {
     background-color: #800020 !important;
@@ -223,7 +227,11 @@ h2 {
 }
 
 /* Media query to make hero image show chef's face om mobile screend */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 389px) {
+    body {
+        margin-top: 100px;
+    }
+    
     #chef-hero {
         background-position: 65%;
         background-repeat: no-repeat;
