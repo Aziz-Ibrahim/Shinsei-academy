@@ -71,7 +71,7 @@ h2 {
 #classes,
 #contact,
 #form,
-#subscribe,
+#confirm,
 #chef-about,
 #download {
     background-color: #f3eed9;
@@ -109,8 +109,8 @@ h2 {
     font-size: 1.2rem;
 }
 
-#classes .card-text {
-    min-height: 120px;
+#classes .card {
+    min-height: 473px;
 
 }
 
@@ -251,9 +251,8 @@ body {
     }
 }
 
-
-@media screen and (min-width: 1200px) {
-    #portfolio .card-text {
-        min-height: auto;
+@media screen and (min-width: 992px) {
+    #classes .card {
+        min-height: 493px;
     }
 }
