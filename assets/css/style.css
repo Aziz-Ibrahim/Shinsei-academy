@@ -229,14 +229,18 @@ h2 {
 
 /* Media query to make hero image show chef's face om mobile screend */
 @media screen and (max-width: 389px) {
-    body {
-        margin-top: 100px;
-    }
-    
     #chef-hero {
         background-position: 65%;
         background-repeat: no-repeat;
     }
+}
+
+/*  */
+/* Media query to push body down to house the thick nav bar on small screens */
+@media screen and (max-width: 389px) {
+body {
+    margin-top: 100px;
+}
 }
 
 /* booking.html form radio on medium and small screens */
@@ -244,5 +248,12 @@ h2 {
     .radio-buttons {
         flex-direction: column; /* Stack radio buttons vertically */
         gap: 0.5rem;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #portfolio .card-text {
+        min-height: auto;
     }
 }
