@@ -156,6 +156,10 @@ h2 {
     overflow: scroll !important;
 }
 
+summary {
+    padding: 10px;
+}
+
 #contact-email,
 #contact-name,
 #agree,
