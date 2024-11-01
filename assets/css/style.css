@@ -36,6 +36,10 @@ nav .container {
     position: relative;
 }
 
+.nav-link:hover {
+    font-size: 1.1rem;
+}
+
 .nav-link::after {
     content: "";
     position: absolute;
@@ -172,6 +176,11 @@ h2 {
     font-size: 160%;
     padding: 5%;
     color: #800020;
+}
+
+#social-networks i:hover {
+    color: #f3eed9;
+    background-color: #800020;
 }
 
 /* Enroll Form */
