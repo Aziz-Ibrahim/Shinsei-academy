@@ -35,8 +35,8 @@
                 </a>
                 <span class="ms-2" style="color: #f3eed9;">Tsumori Hayenami 津守 颯波</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon nav"></span>
                 </button>
                 <div class="collapse navbar-collapse nav" id="navbarSupportedContent">
@@ -49,7 +49,7 @@
                 </div>
             </div>
         </nav>
-        
+
         <!-- section with hero image -->
         <section class="row">
             <smap class="hidden">Hero</span>
@@ -170,39 +170,41 @@
 
     </main>
 
-    <!-- Modal -->
-
-    <div class="modal fade" id="book" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="subscribeModalLabel">Hayenami's Recipe Book</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        Sign up for a chance to het your hands on a limited edition recipe book written by sushi master
-                        chef Tsumori Hayenami
-                    </p>
-                    <form class="row g-3 sharp-corners" method="Get" action="download.html">
-                        <div class="col-lg-6">
-                            <label for="modalName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="modalName" required>
-                        </div>
-                        <div class="col-lg-6">
-                            <label for="modalEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="modalEmail" required>
-                        </div>
-                        <div class="col-12 mb-4">
-                            <button type="submit" class="btn btn-primary custom-btn"
-                                aria-label="submit your request for a recipe book copy"> Get Book!</button>
-                        </div>
-                    </form>
+    <aside>
+        <!-- Modal -->
+        <div class="modal fade" id="book" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="subscribeModalLabel">Hayenami's Recipe Book</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Sign up for a chance to het your hands on a limited edition recipe book written by sushi
+                            master
+                            chef Tsumori Hayenami
+                        </p>
+                        <form class="row g-3 sharp-corners" method="Get" action="download.html">
+                            <div class="col-lg-6">
+                                <label for="modalName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="modalName" required>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="modalEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="modalEmail" required>
+                            </div>
+                            <div class="col-12 mb-4">
+                                <button type="submit" class="btn btn-primary custom-btn"
+                                    aria-label="submit your request for a recipe book copy"> Get Book!</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </aside>
+    
     <!-- Bootstrap JS Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
