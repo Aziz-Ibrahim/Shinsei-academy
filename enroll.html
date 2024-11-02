@@ -23,65 +23,68 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="index.html" aria-label="Return to home page">
-                <img src="assets/images/logo.png" alt="Shinsei Sushi Academy Logo" width="50" height="50"
-                    class="d-inline-block align-text-top">
-            </a>
-            <span class="ms-2" style="color: #f3eed9;">Enrollment</span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon nav"></span>
-            </button>
-            <div class="collapse navbar-collapse nav" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html"
-                            aria-label="Return to home page">Return to Home Page</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-<main>
-    <section id="form" class="container form-background">
-        <div id="enroll" class="d-flex justify-content-center text-white row">
-            <form id="signup-form" class="col-12" method="get" action="confirm.html">
-                <h2><i class="fa-solid fa-user-plus" aria-hidden="true"></i> Please fill in the form below:</h2>
-                <label for="register-fname">First Name</label>
-                <input type="text" name="first_name" id="register-fname" class="text-input" required>
-                <br>
-                <label for="register-lname">Last Name</label>
-                <input type="text" name="last_name" id="register-lname" class="text-input" required>
-                <br>
-                <label for="email-address">Email Address</label>
-                <input type="email" name="email_address" id="email-address" class="text-input" required>
-                <br>
-                <p> Please choose the class you want to sign-up for</p>
-                <div class="radio-buttons">
-                    <div>
-                        <label for="mastery">Mastery in Sushi</label>
-                        <input type="radio" name="sushi-class" id="mastery" value="mastery" required checked>
-                    </div>
-                    <div>
-                        <label for="intro">Introduction to Sushi</label>
-                        <input type="radio" name="sushi-class" id="intro" value="intro" required>
-                    </div>
+    <header>
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html" aria-label="Return to home page">
+                    <img src="assets/images/logo.png" alt="Shinsei Sushi Academy Logo" width="50" height="50"
+                        class="d-inline-block align-text-top">
+                </a>
+                <span class="ms-2" style="color: #f3eed9;">Enrollment</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon nav"></span>
+                </button>
+                <div class="collapse navbar-collapse nav" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html"
+                                aria-label="Return to home page">Return to Home Page</a>
+                        </li>
+                    </ul>
                 </div>
-                <br>
-                <select class="form-select mb-5 custom-select">
-                    <option selected>Attendance time window</option>
-                    <option value="morning">08:00 - 11:00 am</option>
-                    <option value="noon">12:00 - 03:00 pm</option>
-                    <option value="afternoon">04:00 - 07:00 pm</option>
-                    <option value="evening">08:00 - 11:00 pm</option>
-                </select>
-                <button type="submit" class="btn btn-outline-secondary custom-btn"
-                    aria-label="submit your request to enroll">Register</button>
-            </form>
-        </div>
-    </section>
-</main>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="form" class="container form-background">
+            <div id="enroll" class="d-flex justify-content-center text-white row">
+                <form id="signup-form" class="col-12" method="Get" action="confirm.html">
+                    <h2><i class="fa-solid fa-user-plus" aria-hidden="true"></i> Please fill in the form below:</h2>
+                    <label for="register-fname">First Name</label>
+                    <input type="text" name="first_name" id="register-fname" class="text-input" required>
+                    <br>
+                    <label for="register-lname">Last Name</label>
+                    <input type="text" name="last_name" id="register-lname" class="text-input" required>
+                    <br>
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email_address" id="email-address" class="text-input" required>
+                    <br>
+                    <p> Please choose the class you want to sign-up for</p>
+                    <div class="radio-buttons">
+                        <div>
+                            <label for="mastery">Mastery in Sushi</label>
+                            <input type="radio" name="sushi-class" id="mastery" value="mastery" required checked>
+                        </div>
+                        <div>
+                            <label for="intro">Introduction to Sushi</label>
+                            <input type="radio" name="sushi-class" id="intro" value="intro" required>
+                        </div>
+                    </div>
+                    <br>
+                    <select class="form-select mb-5 custom-select">
+                        <option selected>Attendance time window</option>
+                        <option value="morning">08:00 - 11:00 am</option>
+                        <option value="noon">12:00 - 03:00 pm</option>
+                        <option value="afternoon">04:00 - 07:00 pm</option>
+                        <option value="evening">08:00 - 11:00 pm</option>
+                    </select>
+                    <button type="submit" class="btn btn-outline-secondary custom-btn"
+                        aria-label="submit your request to enroll">Register</button>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
