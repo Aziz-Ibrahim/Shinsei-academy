@@ -251,6 +251,17 @@ summary {
     color: #800020 !important;
 }
 
+/* Footer */
+footer {
+    color: #f3eed9;
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 0;
+}
 /* Media Queries */
 
 /* #about>p in medium screens */
