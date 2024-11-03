@@ -61,3 +61,73 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
         ![NavBar small screen expanded](documentation/nav-bar-expanded-sm-screen.png)
 
 
+---
+
++ ### Home Page
+
+    - Represent: 
+
+        * the core values of the academy.
+        * showcase the philosophy on which the academy was built.
+        * promote the academy's vision.
+        * makes it easy to contact the acadmy by filling out the contact form.
+
+
+    ![Home Page](documentation/home-page.png)
+
+---
+
++ #### Hero Section
+
+    - Hero section have a fixed background image.
+
+    - Hero section have the block section below the image that consist:
+
+        * A welcome message.
+        * Short description of the academy's core values.
+        
+
+    
+    ![Hero Section](documentation/home-hero-section.png)
+
+--- 
+
++ #### Our Philosophy Section
+
+    - Section showcases the academy's philosophy.
+    - Section houses an image of one of the academy's fine work.
+
+    
+    ![Philosophy Section](documentation/home-philosophy-section.png)
+
+
+    ---
++ #### Our Vision Section
+
+    - Section has two paragraphs that promote the vision of the academy and the reasons why it is operating in London.
+    - Section houses two images illustrating some of the academy's fine work.
+
+​
+    ![Vision Section](documentation/home-vision-section.png)
+
+
+---
++ #### Our Classes Section
+
+    - Section contains 2 cards that explain what each class is and who is it designed for.
+    - Each card holds the class name, an image related to the class. reasons why this class my suite the user and a button that takes user to the enrollment page.
+​
+    ![Call to Action Section](documentation/home-classes-section.png)
+
+
+---
++ #### Contact Us Section
+
+    - Section has four different parts;
+    * An embedded map showing the academy's location.
+    * Contact details such as phone number, email address, postal address.
+    * Cntact form for direct messaging.
+    * Links to social media platforms.
+​
+    ![Footer](documentation/home-contact-section.png)
+​
