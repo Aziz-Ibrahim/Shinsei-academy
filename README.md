@@ -117,7 +117,7 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
     - Section contains 2 cards that explain what each class is and who is it designed for.
     - Each card holds the class name, an image related to the class. reasons why this class my suite the user and a button that takes user to the enrollment page.
 ​
-    ![Call to Action Section](documentation/home-classes-section.png)
+    ![Classes Section](documentation/home-classes-section.png)
 
 
 ---
@@ -129,5 +129,89 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
     * Cntact form for direct messaging.
     * Links to social media platforms.
 ​
-    ![Footer](documentation/home-contact-section.png)
+    ![Contact Section](documentation/home-contact-section.png)
+
+---
++ #### Footer
+     - Footer has a short message about the copyrights.
 ​
+---
++ ### Chef Page
+
+    - Chef page has a hero image of master chef Tsumori Hayenami and an introduction message for the visitors that contains a short insight about his early begining and upbringing.
+
+    - It has a button right after the introduction message that leads to downloading his recipe book in PDF format.
+
+    - It has two more section that give more information about Tsumori's experience and heritage .
+
+        - The page is responsive: the size and layout of all sections depend on the user's screen.
+
+
+    - it has a header that houses the logo of the academy and a return to home page link.
+    
+    - It has a return to home page button.
+
+    - It has a footer identical to the home page's footer.
+    
+​
+    ![chef page](documentation/chef-page.png)
+
+
+---
++ ### Enroll page
+
+    - Enroll page has a contact form:
+
+        - Form is set on a background that illustrates sushi being prepared by the hands of master chef Tsumori.
+        - All text input fields are customized.
+        - All inputs are set to be required to fill out.
+        - It has to radiobuttons for the visitors to choose which class they want to apply for:
+            - The 1st is - Mastery in Sushi.
+            - The 2nd is - Introduction to Sushi Cheffing. 
+
+        - The submit button is animated on hover.
+
+    - The page is responsive on all common screen sizes.
+    
+    - it has a header that houses the logo of the academy and a return to home page link.
+
+    - The submit button leads to the confirm page.
+
+    - It has a footer identical to the home page's footer.
+​
+    ![Enroll page](documentation/enroll-page.png)
+
+
+---
++ ### Confirm page
+
+    - Confirm page appears after submitting the contact form and the enroll form
+    
+    - It contains the thank you message and the promise to get in touch with the applicant, advises user to check junk/spam mail to find response. It also gives user an alternative to get a faster response incase they didn't recieve one.
+   
+    - It has a return to home page button.
+    
+    - it has a header that houses the logo of the academy and a return to home page link.
+
+    - It has a footer identical to the home page's footer.
+
+    ![Confirm page](documentation/confirm-page.png)
+
+---
++ ### Download page
+
+    - Download page appears after submitting the book request form on Chef's page.
+    
+    - It contains the thank you message and text indicating that the download is ready.
+
+    - it has a button that triggers the download of PDF recipe book.
+   
+    - It has a return to home page button.
+
+    - it has a header that houses the logo of the academy and a return to home page link.
+
+    - It has a footer identical to the home page's footer.
+
+    ![Download page](documentation/download-page.png)
+
+---
