@@ -56,7 +56,9 @@ nav .container {
   }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
     font-family: "Sora", sans-serif;
     color: #800020;
 
