@@ -215,3 +215,27 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
     ![Download page](documentation/download-page.png)
 
 ---
+## Technologies Used
+
+- [HTML](https://code.visualstudio.com/docs/languages/html) was used as the foundation of the site.
+- [CSS](https://code.visualstudio.com/docs/languages/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - was used to make pages responsive.
+- [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
+- [GoFullPage Chrome Exyention](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl?hl=en) was used to make and resize images for the README file.
+
+
+---
+## Design
+
+### Color Scheme
+
+![Color palette](documentation/colorspace-palette.png)
+
+- The color scheme for the Shinsei Sushi Academy website has been carefully selected to reflect elements of Japanese culture and create a warm, inviting atmosphere. The primary color, burgundy (#800020), was inspired by the deep red of the Japanese maple leaf and the symbolism of the red circle on the Japanese flag. This rich shade conveys both tradition and sophistication, making it a fitting choice for an educational setting that celebrates Japanese culinary arts and cultural heritage.
+
+- Complementing the burgundy is #f3eed9, a light, neutral tone that adds balance and a sense of calm to the design. This soft background color provides a comfortable contrast, helping the primary elements stand out while creating a spacious, airy feel. The light tone also evokes a sense of openness and simplicity, characteristics often associated with Japanese aesthetics.
+
+- Finally, #d09ea9, a gentle pinkish hue, adds warmth and a welcoming touch to the overall color palette. This color brings an inviting softness to the interface, symbolizing hospitality and harmony, which are central to Japanese culinary philosophy. Together, these colors evoke a sense of tradition, elegance, and warmth, enhancing the user experience and reinforcing the cultural authenticity of the academy's brand.
