@@ -50,14 +50,14 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
     - The navigation bar is responsive:
         * On tablets: 
            - navigation bar filled with the logo in the left hand side, the academy's name in the center, and a hamburger menu implemented on the right hand side of the navigation bar.
-        ![NavBar medium screen collapsed](documentation\nav-bar-collapsed-md-screen.png)
+        ![NavBar medium screen collapsed](documentation/nav-bar-collapsed-md-screen.png)
            - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-        ![NavBar medium screen expanded](documentation\nav-bar-expanded-md-screen.png)
+        ![NavBar medium screen expanded](documentation/nav-bar-expanded-md-screen.png)
 
         * On mobile phones: 
            - navigation bar filled with the logo in the left hand side, the academy's name in the center, and a hamburger menu implemented on the right hand side of the navigation bar.
-        ![NavBar small screen collapsed](documentation\nav-bar-collapsed-sm-screen.png)
+        ![NavBar small screen collapsed](documentation/nav-bar-collapsed-sm-screen.png)
            - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-        ![NavBar small screen expanded](documentation\nav-bar-expanded-sm-screen.png)
+        ![NavBar small screen expanded](documentation/nav-bar-expanded-sm-screen.png)
 
 
