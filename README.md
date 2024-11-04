@@ -328,10 +328,10 @@ In your IDE Terminal, type the following command to clone my repository:
 ---
 
 ## Future improvements
-- add custom 404 page;
-- add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
-- improve the quality of the commit messages (I am aware that some of them are not very long and not capitalized to comply with the standards and will improve them in the future);
-- add fully functional contact form.
+- improve the performance score in home page.
+- add custom 404 page.
+- improve the quality of the commit messages (I am aware that some of them are very long and not capitalized to comply with the standards and will improve them in the future);
+- add fully functional contact form and enroll application form.
 
 ---
 ## Credits
