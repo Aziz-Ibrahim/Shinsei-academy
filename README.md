@@ -265,15 +265,15 @@ The website was tested in multiple browsers, including:
 
 These tests were conducted to verify that the design elements, color scheme, and interactive features are displayed as intended on each platform. Any discrepancies in layout or style were noted and addressed to ensure a uniform user experience.
 
-2. Responsive Design Testing
+### 2. Responsive Design Testing
 The website was tested on different screen sizes, including desktop, tablet, and mobile devices, to verify responsive behavior. Media queries and flexible layouts were implemented to ensure that content adjusts smoothly across various screen sizes. Testing included portrait and landscape orientations to confirm that all elements retain their usability and visual appeal.
 [amIresponsive](https://ui.dev/amiresponsive?url=https://aziz-ibrahim.github.io/Shinsei-academy/)
 ![Responsive](documentation/responsive.jpg)
 
-3. Functionality Testing
+### 3. Functionality Testing
 Key interactive components, such as navigation links, buttons, and elements, were tested to confirm they function correctly across all browsers. Additionally, the favicon was verified to display correctly on browser tabs and bookmarks, contributing to brand identity.
 
-4. Accessibility Testing
+### 4. Accessibility Testing
 Basic accessibility tests were conducted to confirm compliance with accessibility standards, including:
 
 - Verifying semantic HTML and CSS structure.
@@ -295,7 +295,7 @@ To ensure that the code for the Shinsei Sushi Academy website adheres to web sta
 - Ensuring that all images and icons have alternative text.
 ![Accessability](documentation/accessibility-check.png)
 
-5. DevTools Testing
+### 5. DevTools Testing
 - Google Chrome’s DevTools Lighthouse audit was used to test and optimize the performance, accessibility, SEO, and best practices for the Shinsei Sushi Academy website. Lighthouse provided detailed insights into key areas, including load times, mobile-friendliness, color contrast, and the implementation of modern web practices. Based on the audit’s recommendations, optimizations were made to improve the website’s loading speed, enhance accessibility features, and ensure effective SEO. These adjustments help deliver a seamless, user-friendly experience across devices and contribute to better visibility in search engines.
 ![index](documentation/index-page-lighthouse-check.png)
 ![chef](documentation/chef-page-lighthouse-check.png)
@@ -351,6 +351,7 @@ In your IDE Terminal, type the following command to clone my repository:
     - [Image Resizer](https://imageresizer.com/) was used to resize images.
     - [MS Designer](https://designer.microsoft.com/) was used to edit all README.md images.
     - [Color Space](https://mycolor.space/) was used to create the color palette.
+    - [Canva Logo Maker](https://www.canva.com/create/logos/) was used to design the academy's logo.
 
 
 ---
