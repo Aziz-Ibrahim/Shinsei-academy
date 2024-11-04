@@ -303,3 +303,34 @@ To ensure that the code for the Shinsei Sushi Academy website adheres to web sta
 ![download](documentation/download-page-lighthouse-check.png)
 
 ---
+
+
+## Deployment
+
+### Deployment to GitHub Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/Aziz-Ibrahim/Shinsei-academy), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://aziz-ibrahim.github.io/Shinsei-academy/)
+
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://aziz-ibrahim.github.io/Shinsei-academy.git`
+
+- Alternatively, if you use Gitpod, you can [click here](https://aziz-ibrahim.github.io/Shinsei-academy), which will start the Gitpod workspace for you.
+
+---
+
+## Future improvements
+- add custom 404 page;
+- add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
+- improve the quality of the commit messages (I am aware that some of them are not very long and not capitalized to comply with the standards and will improve them in the future);
+- add fully functional contact form.
+
+---
