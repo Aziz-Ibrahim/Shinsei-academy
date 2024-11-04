@@ -334,3 +334,32 @@ In your IDE Terminal, type the following command to clone my repository:
 - add fully functional contact form.
 
 ---
+## Credits
+
++ #### Content
+
+- The name of the academy was suggested by [chatGPT](https://chatgpt.com/) as well as the name of the master chef.
+![chatGPT](documentation/chatgpt-suggestions-for-academy-name.png)
+
++ #### Media
+
+    - Most of the images for the website were taken from [StockCake](https://stockcake.com/).
+    - Some of the images for the website were taken from [DepositPhotos](https://depositphotos.com/)
+
++ #### Tools
+
+    - [Image Resizer](https://imageresizer.com/) was used to resize images.
+    - [MS Designer](https://designer.microsoft.com/) was used to edit all README.md images.
+    - [Color Space](https://mycolor.space/) was used to create the color palette.
+
+
+---
+
+## Acknowledgements
+- [Ghada Aziz](https://www.instagram.com/ghadaziz913/) My wife was a massive support throughout the creation of this project, and helped me choose the colour theme for the website.
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) My Mentor was a great support and motivation in the creation of this website.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+- [Coder Coder](https://www.youtube.com/@TheCoderCoder) for her amazing coding tutorials on her [YouTube channel](https://www.youtube.com/@TheCoderCoder) and [website](https://coder-coder.com/).
+
+---
+
