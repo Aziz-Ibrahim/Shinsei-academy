@@ -239,3 +239,67 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 - Complementing the burgundy is #f3eed9, a light, neutral tone that adds balance and a sense of calm to the design. This soft background color provides a comfortable contrast, helping the primary elements stand out while creating a spacious, airy feel. The light tone also evokes a sense of openness and simplicity, characteristics often associated with Japanese aesthetics.
 
 - Finally, #d09ea9, a gentle pinkish hue, adds warmth and a welcoming touch to the overall color palette. This color brings an inviting softness to the interface, symbolizing hospitality and harmony, which are central to Japanese culinary philosophy. Together, these colors evoke a sense of tradition, elegance, and warmth, enhancing the user experience and reinforcing the cultural authenticity of the academy's brand.
+
+### Typography
+
+![Main Font](documentation/sora-font.png)
+
+- Sora Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
+---
+## Testing
+
+The Shinsei Sushi Academy website was thoroughly tested to ensure consistent performance, visual integrity, and usability across various devices and browsers. The following tests were conducted:
+
+### 1. Cross-Browser Compatibility
+The website was tested in multiple browsers, including:
+
+- Google Chrome
+![Chrome](documentation/chrome-testing.png)
+- Mozilla Firefox
+![Firefox](documentation/firefox-testing.png)
+- Safari (mobile)
+![Safari](documentation/safari-testing.jpg)
+- Microsoft Edge
+![Edge](documentation/ms-edge-testing.png)
+
+These tests were conducted to verify that the design elements, color scheme, and interactive features are displayed as intended on each platform. Any discrepancies in layout or style were noted and addressed to ensure a uniform user experience.
+
+2. Responsive Design Testing
+The website was tested on different screen sizes, including desktop, tablet, and mobile devices, to verify responsive behavior. Media queries and flexible layouts were implemented to ensure that content adjusts smoothly across various screen sizes. Testing included portrait and landscape orientations to confirm that all elements retain their usability and visual appeal.
+[amIresponsive](https://ui.dev/amiresponsive?url=https://aziz-ibrahim.github.io/Shinsei-academy/)
+![Responsive](documentation/responsive.jpg)
+
+3. Functionality Testing
+Key interactive components, such as navigation links, buttons, and elements, were tested to confirm they function correctly across all browsers. Additionally, the favicon was verified to display correctly on browser tabs and bookmarks, contributing to brand identity.
+
+4. Accessibility Testing
+Basic accessibility tests were conducted to confirm compliance with accessibility standards, including:
+
+- Verifying semantic HTML and CSS structure.
+To ensure that the code for the Shinsei Sushi Academy website adheres to web standards and best practices, HTML, CSS, and JavaScript were validated using the following tools:
+
+* HTML Validation: The HTML code was validated using the [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Faziz-ibrahim.github.io%2FShinsei-academy%2F). This helped identify and correct any syntax errors, missing tags, and accessibility issues, ensuring that the HTML structure is clean, semantic, and well-formed.
+
+* CSS Validation: The CSS code was validated through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faziz-ibrahim.github.io%2FShinsei-academy%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). This process helped catch any syntax errors or deprecated properties, and ensured cross-browser compatibility by following CSS standards.
+
+![Homepage](documentation/index-page-markup-validator-check.png)
+![Chefpage](documentation/chef-page-markup-validator-check.png)
+![Enrollpage](documentation/enroll-page-markup-validator-check.png)
+![confirmpage](documentation/enroll-page-markup-validator-check.png)
+![Downloadpage](documentation/download-page-markup-validator-check.png)
+
+- Checking color contrast for readability.
+![Contrast](documentation/contrast-check.png)
+
+- Ensuring that all images and icons have alternative text.
+![Accessability](documentation/accessibility-check.png)
+
+5. DevTools Testing
+- Google Chrome’s DevTools Lighthouse audit was used to test and optimize the performance, accessibility, SEO, and best practices for the Shinsei Sushi Academy website. Lighthouse provided detailed insights into key areas, including load times, mobile-friendliness, color contrast, and the implementation of modern web practices. Based on the audit’s recommendations, optimizations were made to improve the website’s loading speed, enhance accessibility features, and ensure effective SEO. These adjustments help deliver a seamless, user-friendly experience across devices and contribute to better visibility in search engines.
+![index](documentation/index-page-lighthouse-check.png)
+![chef](documentation/chef-page-lighthouse-check.png)
+![enroll](documentation/enroll-page-lighthouse-check.png)
+![download](documentation/download-page-lighthouse-check.png)
+
+---
