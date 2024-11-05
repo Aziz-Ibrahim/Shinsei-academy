@@ -10,7 +10,6 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 
 ![Responsive Mockup](documentation/responsive.jpg)
 
-
 ---
 ## User Stories
 
@@ -301,6 +300,88 @@ To ensure that the code for the Shinsei Sushi Academy website adheres to web sta
 ![chef](documentation/chef-page-lighthouse-check.png)
 ![enroll](documentation/enroll-page-lighthouse-check.png)
 ![download](documentation/download-page-lighthouse-check.png)
+
+### 6. Manual Testing
+
+Manual testing was conducted to ensure each feature on the Shinsei Sushi Academy website works as expected across different devices, screen sizes, and browsers. The following outlines the various test cases, expected results, and actual outcomes for each feature.
+
+#### 6.1 Navbar Testing
+
+| Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
+|-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
+| Navbar links (desktop)                  | Click on each link in the navbar from the homepage and other pages.                      | Each link navigates to the corresponding section or page (e.g., HOME, OUR PHILOSOPHY).                | Pass          | ✅      |
+| Navbar logo (desktop)                   | Click on the academy logo in the navbar.                                                | The logo should navigate to the homepage from any page.                                               | Pass          | ✅      |
+| Navbar responsiveness (tablet)          | Resize browser window to tablet size and click the hamburger menu.                       | Navbar collapses into a hamburger menu, and links open in a dropdown when clicked.                     | Pass          | ✅      |
+| Navbar responsiveness (mobile)          | Resize browser window to mobile size and test the hamburger menu.                        | Navbar collapses into a hamburger menu, and links open in a dropdown when clicked.                     | Pass          | ✅      |
+
+#### 6.2 Hero Section Testing
+
+| Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
+|-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
+| Hero background image (desktop)         | Load the homepage and observe the hero section.                                         | Background image displays correctly and text overlays appear as intended.                              | Pass          | ✅      |
+| Hero background image (mobile)          | Load the homepage on a mobile device and check hero section.                            | Background image adjusts and scales appropriately to the screen size.                                  | Pass          | ✅      |
+
+#### 6.3 Our Philosophy Section Testing
+
+| Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
+|-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
+| Philosophy text visibility (all devices)| Load the section on desktop, tablet, and mobile.                                        | Text is readable and properly aligned across all devices.                                              | Pass          | ✅      |
+| Philosophy image display                | Verify image loads and aligns next to the text (on larger screens).                      | Image loads correctly on all devices and aligns as per screen size (inline or stacked).                | Pass          | ✅      |
+
+#### 6.4 Contact Us Section Testing
+
+| Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
+|-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
+| Contact form submission                 | Fill out all fields and click "Submit".                                                 | Form submits successfully, and the user is redirected to the confirmation page.                       | Pass          | ✅      |
+| Contact form validation                 | Try submitting the form with one or more empty fields.                                  | Error message is displayed, indicating that all fields are required.                                  | Pass          | ✅      |
+| Social media links                      | Click on each social media icon link.                                                   | Each icon opens the corresponding social media page in a new tab.                                     | Pass          | ✅      |
+
+#### 6.5 Chef Page Testing
+
+| Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
+|-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
+| Button to download recipe book          | Click on the "Download Recipe Book" button.                                             | The PDF download starts or a prompt appears to download the file.                                      | Pass          | ✅      |
+| Image and content alignment             | Load the page on desktop, tablet, and mobile devices.                                   | Content (image, text) aligns correctly on all devices, scaling appropriately for each screen size.     | Pass          | ✅      |
+
+#### 6.6 Enroll Page Testing
+
+| Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
+|-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
+| Enrollment form submission              | Select a class and fill out all required fields. Click "Submit".                        | Form submits successfully, and user is redirected to the confirmation page.                           | Pass          | ✅      |
+| Enrollment form validation              | Try submitting with missing fields.                                                     | Error message prompts user to complete required fields.                                               | Pass          | ✅      |
+| Class selection radio buttons           | Test selection of "Mastery in Sushi" and "Introduction to Sushi Cheffing".              | Only one class can be selected at a time.                                                             | Pass          | ✅      |
+
+#### 6.7 Confirm Page Testing
+
+| Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
+|-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
+| Confirmation message display            | Submit the contact or enrollment form and view the confirmation page.                   | Thank you message displays, advising user to check for a response.                                    | Pass          | ✅      |
+| Return to home button                   | Click "Return to Home" on the confirmation page.                                        | User is redirected to the homepage.                                                                   | Pass          | ✅      |
+
+#### 6.8 Cross-Browser Testing
+
+The website was tested on the following browsers for compatibility:
+
+| Browser          | Version Tested | Result |
+|------------------|----------------|--------|
+| Google Chrome    | Latest         | ✅ Pass |
+| Mozilla Firefox  | Latest         | ✅ Pass |
+| Safari           | Latest         | ✅ Pass |
+| Microsoft Edge   | Latest         | ✅ Pass |
+
+#### 6.9 Responsive Design Testing
+
+The website was tested on multiple screen sizes to ensure responsiveness:
+
+| Device           | Screen Size    | Result       |
+|------------------|----------------|--------------|
+| Desktop          | > 1024px      | ✅ Pass      |
+| Tablet           | 768px - 1024px| ✅ Pass      |
+| Mobile           | < 768px       | ✅ Pass      |
+
+#### Summary of Testing
+
+All manual tests were completed successfully. Any minor issues encountered, such as alignment or spacing inconsistencies, were resolved. The site functions smoothly across all tested devices and browsers, providing a consistent and user-friendly experience.
 
 ---
 
