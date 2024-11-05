@@ -13,22 +13,54 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Features](#features)
-5. [Technologies Used](#technologies-used)
-6. [Testing](#testing)
-   - 6.1 [Unit Tests](#unit-tests)
-   - 6.2 [Integration Tests](#integration-tests)
-   - 6.3 [System Tests](#system-tests)
-   - 6.4 [User Acceptance Tests](#user-acceptance-tests)
-   - 6.5 [End-to-End Tests](#end-to-end-tests)
-   - 6.6 [Manual Testing](#manual-testing)
-7. [Deployment](#deployment)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
+## Table of Contents
+
+1. [User Stories](#user-stories)
+   - [First Time Visitor Goals](#first-time-visitor-goals)
+   - [Returning Visitor Goals](#returning-visitor-goals)
+   - [Frequent Visitor Goals](#frequent-visitor-goals)
+
+2. [Features](#features)
+   - [Navbar](#navbar)
+   - [Home Page](#home-page)
+   - [Hero Section](#hero-section)
+   - [Our Philosophy Section](#our-philosophy-section)
+   - [Our Vision Section](#our-vision-section)
+   - [Our Classes Section](#our-classes-section)
+   - [Contact Us Section](#contact-us-section)
+   - [Footer](#footer)
+   - [Chef Page](#chef-page)
+   - [Enroll Page](#enroll-page)
+   - [Confirm Page](#confirm-page)
+   - [Download Page](#download-page)
+
+3. [Technologies Used](#technologies-used)
+
+4. [Design](#design)
+   - [Color Scheme](#color-scheme)
+   - [Typography](#typography)
+
+5. [Testing](#testing)
+   - [Cross-Browser Compatibility](#cross-browser-compatibility)
+   - [Responsive Design Testing](#responsive-design-testing)
+   - [Functionality Testing](#functionality-testing)
+   - [Accessibility Testing](#accessibility-testing)
+   - [DevTools Testing](#devtools-testing)
+   - [Manual Testing](#manual-testing)
+
+6. [Deployment](#deployment)
+   - [Deployment to GitHub Pages](#deployment-to-github-pages)
+   - [Local Deployment](#local-deployment)
+
+7. [Future Improvements](#future-improvements)
+
+8. [Credits](#credits)
+   - [Content](#content)
+   - [Media](#media)
+   - [Tools](#tools)
+
+9. [Acknowledgements](#acknowledgements)
+
 
 ---
 ## User Stories
