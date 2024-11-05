@@ -353,7 +353,7 @@ To ensure that the code for the Shinsei Sushi Academy website adheres to web sta
 
 Manual testing was conducted to ensure each feature on the Shinsei Sushi Academy website works as expected across different devices, screen sizes, and browsers. The following outlines the various test cases, expected results, and actual outcomes for each feature.
 
-#### 6.1 Navbar Testing
+#### Navbar Testing
 
 | Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
 |-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
@@ -362,21 +362,21 @@ Manual testing was conducted to ensure each feature on the Shinsei Sushi Academy
 | Navbar responsiveness (tablet)          | Resize browser window to tablet size and click the hamburger menu.                       | Navbar collapses into a hamburger menu, and links open in a dropdown when clicked.                     | Pass          | ✅      |
 | Navbar responsiveness (mobile)          | Resize browser window to mobile size and test the hamburger menu.                        | Navbar collapses into a hamburger menu, and links open in a dropdown when clicked.                     | Pass          | ✅      |
 
-#### 6.2 Hero Section Testing
+#### Hero Section Testing
 
 | Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
 |-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
 | Hero background image (desktop)         | Load the homepage and observe the hero section.                                         | Background image displays correctly and text overlays appear as intended.                              | Pass          | ✅      |
 | Hero background image (mobile)          | Load the homepage on a mobile device and check hero section.                            | Background image adjusts and scales appropriately to the screen size.                                  | Pass          | ✅      |
 
-#### 6.3 Our Philosophy Section Testing
+#### Our Philosophy Section Testing
 
 | Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
 |-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
 | Philosophy text visibility (all devices)| Load the section on desktop, tablet, and mobile.                                        | Text is readable and properly aligned across all devices.                                              | Pass          | ✅      |
 | Philosophy image display                | Verify image loads and aligns next to the text (on larger screens).                      | Image loads correctly on all devices and aligns as per screen size (inline or stacked).                | Pass          | ✅      |
 
-#### 6.4 Contact Us Section Testing
+#### Contact Us Section Testing
 
 | Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
 |-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
@@ -384,14 +384,14 @@ Manual testing was conducted to ensure each feature on the Shinsei Sushi Academy
 | Contact form validation                 | Try submitting the form with one or more empty fields.                                  | Error message is displayed, indicating that all fields are required.                                  | Pass          | ✅      |
 | Social media links                      | Click on each social media icon link.                                                   | Each icon opens the corresponding social media page in a new tab.                                     | Pass          | ✅      |
 
-#### 6.5 Chef Page Testing
+#### Chef Page Testing
 
 | Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
 |-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
 | Button to download recipe book          | Click on the "Download Recipe Book" button.                                             | The PDF download starts or a prompt appears to download the file.                                      | Pass          | ✅      |
 | Image and content alignment             | Load the page on desktop, tablet, and mobile devices.                                   | Content (image, text) aligns correctly on all devices, scaling appropriately for each screen size.     | Pass          | ✅      |
 
-#### 6.6 Enroll Page Testing
+#### Enroll Page Testing
 
 | Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
 |-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
@@ -399,14 +399,14 @@ Manual testing was conducted to ensure each feature on the Shinsei Sushi Academy
 | Enrollment form validation              | Try submitting with missing fields.                                                     | Error message prompts user to complete required fields.                                               | Pass          | ✅      |
 | Class selection radio buttons           | Test selection of "Mastery in Sushi" and "Introduction to Sushi Cheffing".              | Only one class can be selected at a time.                                                             | Pass          | ✅      |
 
-#### 6.7 Confirm Page Testing
+#### Confirm Page Testing
 
 | Test Case                               | Steps                                                                                   | Expected Result                                                                                        | Actual Result | Status |
 |-----------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------|--------|
 | Confirmation message display            | Submit the contact or enrollment form and view the confirmation page.                   | Thank you message displays, advising user to check for a response.                                    | Pass          | ✅      |
 | Return to home button                   | Click "Return to Home" on the confirmation page.                                        | User is redirected to the homepage.                                                                   | Pass          | ✅      |
 
-#### 6.8 Cross-Browser Testing
+#### Cross-Browser Testing
 
 The website was tested on the following browsers for compatibility:
 
@@ -417,7 +417,7 @@ The website was tested on the following browsers for compatibility:
 | Safari           | Latest         | ✅ Pass |
 | Microsoft Edge   | Latest         | ✅ Pass |
 
-#### 6.9 Responsive Design Testing
+#### Responsive Design Testing
 
 The website was tested on multiple screen sizes to ensure responsiveness:
 
