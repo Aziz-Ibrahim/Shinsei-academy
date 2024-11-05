@@ -96,6 +96,7 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
     ![NavBar large screen](documentation/nav-bar-expanded-lg-screen.png)
+    * I intentially separated the page title from the logo as the page title changes in different pages, I kept the <a> link containing only the logo to go back to home page on click!
 
     - The navigation bar is responsive:
         * On tablets: 
@@ -345,6 +346,7 @@ To ensure that the code for the Shinsei Sushi Academy website adheres to web sta
 ### DevTools Testing
 - Google Chrome’s DevTools Lighthouse audit was used to test and optimize the performance, accessibility, SEO, and best practices for the Shinsei Sushi Academy website. Lighthouse provided detailed insights into key areas, including load times, mobile-friendliness, color contrast, and the implementation of modern web practices. Based on the audit’s recommendations, optimizations were made to improve the website’s loading speed, enhance accessibility features, and ensure effective SEO. These adjustments help deliver a seamless, user-friendly experience across devices and contribute to better visibility in search engines.
 ![index](documentation/index-page-lighthouse-check.png)
+* Performance score could have been increased by using lower resolution images but I wanted to showcase the highly detailed sushi works!
 ![chef](documentation/chef-page-lighthouse-check.png)
 ![enroll](documentation/enroll-page-lighthouse-check.png)
 ![download](documentation/download-page-lighthouse-check.png)
