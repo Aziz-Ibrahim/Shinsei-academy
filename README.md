@@ -9,6 +9,26 @@
 The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-academy/)
 
 ![Responsive Mockup](documentation/responsive.jpg)
+---
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Features](#features)
+5. [Technologies Used](#technologies-used)
+6. [Testing](#testing)
+   - 6.1 [Unit Tests](#unit-tests)
+   - 6.2 [Integration Tests](#integration-tests)
+   - 6.3 [System Tests](#system-tests)
+   - 6.4 [User Acceptance Tests](#user-acceptance-tests)
+   - 6.5 [End-to-End Tests](#end-to-end-tests)
+   - 6.6 [Manual Testing](#manual-testing)
+7. [Deployment](#deployment)
+8. [Contributing](#contributing)
+9. [License](#license)
+10. [Acknowledgments](#acknowledgments)
 
 ---
 ## User Stories
@@ -438,7 +458,7 @@ In your IDE Terminal, type the following command to clone my repository:
 ---
 
 ## Acknowledgements
-- [Ghada Aziz](https://www.instagram.com/ghadaziz913/) My wife was a massive support throughout the creation of this project, and helped me choose the colour theme for the website.
+- [Ghada Aziz](https://www.linkedin.com/) My wife was a massive support throughout the creation of this project, and helped me choose the colour theme for the website.
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) My Mentor was a great support and motivation in the creation of this website.
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
 - [Coder Coder](https://www.youtube.com/@TheCoderCoder) for her amazing coding tutorials on her [YouTube channel](https://www.youtube.com/@TheCoderCoder) and [website](https://coder-coder.com/).
