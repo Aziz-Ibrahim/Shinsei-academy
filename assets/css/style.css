@@ -1,4 +1,3 @@
-
 /* Google fonts  */
 
 
@@ -40,11 +39,11 @@ nav .container {
     height: 2px;
     background-color: #d09ea9;
     transition: width 0.3s;
-  }
-  
-  .nav-link.active::after {
+}
+
+.nav-link.active::after {
     width: 100%;
-  }
+}
 
 h1,
 h2,
@@ -136,7 +135,7 @@ h4 {
 /* Contact Form */
 .map {
     width: 100%;
-    height: 200px; 
+    height: 200px;
     border: 2px solid #800020 !important;
 }
 
@@ -183,17 +182,19 @@ summary {
 
 /* Enroll Form */
 .form-background {
-    background-image: url('../images/form-image.jpg'); 
-    background-size: cover;         
-    background-repeat: no-repeat;     
-    background-position: center;      /* Centers image within container */
-    padding: 2rem;                    /* Optional padding for spacing */
+    background-image: url('../images/form-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centers image within container */
+    padding: 2rem;
+    /* Optional padding for spacing */
 }
 
 
 #signup-form {
     color: #f3eed9;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.9);
     padding: 30px;
 }
 
@@ -251,11 +252,13 @@ footer {
     display: flex;
     justify-content: center;
 }
+
 footer p {
     margin-top: 8px;
     margin-bottom: 8px;
     padding: 0;
 }
+
 /* Media Queries */
 
 /* #about>p in medium screens */
@@ -278,27 +281,31 @@ footer p {
 /*  */
 /* Media query to push body down to house the thick nav bar on small screens */
 @media screen and (max-width: 389px) {
-body {
-    margin-top: 100px;
-}
-#home,
-#philosophy,
-#vision,
-#classes,
-#contact,
-#form,
-#confirm,
-#chef-about,
-#heritage,
-#download {
-    padding-top: 100px;
-}
+    body {
+        margin-top: 100px;
+    }
+
+    #home,
+    #philosophy,
+    #vision,
+    #classes,
+    #contact,
+    #form,
+    #confirm,
+    #chef-about,
+    #heritage,
+    #download {
+        padding-top: 100px;
+    }
 }
 
 /* booking.html form radio on medium and small screens */
-@media (max-width: 992px) { /* Applies to screens <= 992px (Bootstrap's "md" breakpoint) */
+@media (max-width: 992px) {
+
+    /* Applies to screens <= 992px (Bootstrap's "md" breakpoint) */
     .radio-buttons {
-        flex-direction: column; /* Stack radio buttons vertically */
+        flex-direction: column;
+        /* Stack radio buttons vertically */
         gap: 0.5rem;
     }
 }
