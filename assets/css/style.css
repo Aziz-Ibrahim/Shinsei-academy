@@ -27,7 +27,7 @@ nav .container {
 }
 
 .nav-link:hover {
-    font-size: 1.1rem;
+    border-bottom: 2px solid #d09ea9;
 }
 
 .nav-link::after {
