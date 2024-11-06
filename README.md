@@ -13,8 +13,6 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 
 ## Table of Contents
 
-## Table of Contents
-
 1. [User Stories](#user-stories)
    - [First Time Visitor Goals](#first-time-visitor-goals)
    - [Returning Visitor Goals](#returning-visitor-goals)
@@ -39,6 +37,7 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 4. [Design](#design)
    - [Color Scheme](#color-scheme)
    - [Typography](#typography)
+   - [Wireframe](#wireframe)
 
 5. [Testing](#testing)
    - [Cross-Browser Compatibility](#cross-browser-compatibility)
@@ -296,6 +295,10 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 ![Main Font](documentation/sora-font.png)
 
 - Sora Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
+### Wireframe
+
+![Wireframe](documentation/New%20Wireframe%201.png)
 
 ---
 ## Testing
