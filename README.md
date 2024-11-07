@@ -299,7 +299,6 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 ### Wireframe
 
 ![Wireframe](documentation/New%20Wireframe%201.png)
-![wireframe bmpr](documentation/Wireframe.bmpr)
 ---
 ## Testing
 
