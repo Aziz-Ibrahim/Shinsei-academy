@@ -1,6 +1,4 @@
 /* Google fonts  */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Kalam:wght@300;400;700&family=LXGW+WenKai+Mono+TC&family=Outfit:wght@100..900&family=Sora:wght@100..800&family=Stick&display=swap');
 
 
@@ -40,6 +38,8 @@ nav .container {
     width: 0;
     height: 2px;
     background-color: #d09ea9;
+    -webkit-transition: width 0.3s;
+    -o-transition: width 0.3s;
     transition: width 0.3s;
 }
 
@@ -168,7 +168,11 @@ summary {
 #social-networks {
     text-align: center;
     padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     list-style-type: none;
 }
@@ -223,7 +227,10 @@ summary {
 
 .radio-buttons {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
@@ -253,7 +260,11 @@ summary {
 /* Footer */
 footer {
     color: #f3eed9;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -308,6 +319,9 @@ footer p {
 
     /* Applies to screens <= 992px (Bootstrap's "md" breakpoint) */
     .radio-buttons {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         /* Stack radio buttons vertically */
         gap: 0.5rem;
