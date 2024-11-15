@@ -296,6 +296,10 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 
 - Sora Google Font was used as the main font of the website in order to increase readability of the content on the pages.
 
+![Heading Font](documentation/stick-font.png)
+
+- Stick Google font was used as the headings font in order to complement the Japanese theme of the website.
+
 ### Wireframe
 
 ![Wireframe](documentation/New%20Wireframe%201.png)
