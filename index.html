@@ -276,6 +276,14 @@
                             <input type="text" class="form-control" id="contact-name" required>
                         </div>
                         <div class="mb-3">
+                            <select class="form-select" required aria-label="Reason for contact" id="contact-reason">
+                                <option value="" disabled selected>Please select a reason for contacting us</option>
+                                <option value="class-inquiry">Class Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="general-question">General Question</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
                             <label for="enquiry" class="form-label">Your Enquiry</label>
                             <textarea class="form-control" id="enquiry" rows="3"></textarea>
                         </div>

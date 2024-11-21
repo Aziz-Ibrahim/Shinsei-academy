@@ -160,7 +160,8 @@ summary {
 #contact-email,
 #contact-name,
 #agree,
-#enquiry {
+#enquiry,
+#contact-reason {
     border: 2px solid #800020;
     border-radius: 0;
 }
