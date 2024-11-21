@@ -63,6 +63,8 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 ---
 ## User Stories
 
+- User stories planning board can be found in [this link](https://github.com/users/Aziz-Ibrahim/projects/6)
+
 ### First Time Visitor Goals:
 
 * As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the academy.
