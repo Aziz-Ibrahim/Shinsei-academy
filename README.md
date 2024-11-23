@@ -276,7 +276,8 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
-- [GoFullPage Chrome Exyention](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl?hl=en) was used to make and resize images for the README file.
+- [GoFullPage Chrome Extention](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl?hl=en) was used to make and resize images for the README file.
+-[Page to Wireframe Chrome Extention](https://chromewebstore.google.com/detail/page-to-wireframe/djbpbelpckcfamdlkfhipkkadnanmkci) was used to creat wireframes for this project.
 
 
 ---
@@ -303,8 +304,30 @@ The site can be accessed by this [link](https://aziz-ibrahim.github.io/Shinsei-a
 - Stick Google font was used as the headings font in order to complement the Japanese theme of the website.
 
 ### Wireframe
+- Homepage :
+![Homepage on desktop](documentation/wireframe-home-lg.png)
+![Homepage on tablet](documentation/wireframe-home-md.png)
+![Homepage on mobile](documentation/wireframe-home-sm.png)
 
-![Wireframe](documentation/New%20Wireframe%201.png)
+- Chef page :
+![Chef page on desktop](documentation/wireframe-chef-lg.png)
+![Chef page on tablet](documentation/wireframe-chef-md.png)
+![Chef page on mobile](documentation/wirefrmae-chef-sm.png)
+
+- Enrollment page :
+![Enroll on desktop](documentation/wirefrmae-enroll-lg.png)
+![Enroll on tablet](documentation/wireframe-enroll-md.png)
+![Enroll on mobile](documentation/wireframe-enroll-sm.png)
+
+- Confirm page :
+![Confirm on desktop](documentation/wireframe-confirm-lg.png)
+![Confirm on tablet](documentation/wireframe-confirm-md.png)
+![Confirm on mobile](documentation/wireframe-confirm-sm.png)
+
+- Download page :
+![Download on desktop](documentation/wireframe-download-lg.png)
+![Download on tablet](documentation/wireframe-download-md.png)
+![Download on mobile](documentation/wireframe-download-sm.png)
 ---
 ## Testing
 
